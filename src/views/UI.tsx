@@ -16,10 +16,13 @@ import {
 import { Note } from "../domain/Note";
 
 export const UI: React.FC = () => {
+
   const dispatch = useDispatch();
-  const notesState = useSelector<IApplicationState, INotesState>(
-    (state) => state.notesState
-  );
+  
+  const notesState = useSelector<
+    IApplicationState, 
+    INotesState
+  >((state) => state.notesState);
 
   return (
     <div style={{ padding: "50px" }}>
