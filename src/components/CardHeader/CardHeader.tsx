@@ -12,7 +12,6 @@ export const CardHeader: React.FC<ICardHeaderProps> = (props) => {
       <span
         className={classes.close}
         onClick={() => {
-          console.log("delete")
           props.onDelete();
         }}
       >
