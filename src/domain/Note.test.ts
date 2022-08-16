@@ -1,4 +1,4 @@
-import { Note } from "../domain/Note";
+import { Note } from "./Note";
 
 describe("Unit Test for The Note Class", () => {
   test("should create a note object with its fields empty.", () => {
