@@ -7,7 +7,7 @@ import {
   compose,
 } from "redux";
 
-import { INotesState, NotesReducer } from "../reducers/NotesReducer";
+import { INotesState, NotesReducer } from "../notes/NotesReducer";
 
 
 export interface IApplicationState {

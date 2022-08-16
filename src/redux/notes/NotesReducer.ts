@@ -1,6 +1,6 @@
 import { Reducer } from "redux";
 import { Note } from "../../domain/Note";
-import { NotesActions, NotesTypes } from "../types/NotesTypes";
+import { NotesActions, NotesTypes } from "./NotesTypes";
 import { v4 as uuidv4 } from "uuid";
 
 export interface INotesState {

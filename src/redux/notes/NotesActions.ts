@@ -1,7 +1,7 @@
 import { ThunkAction } from "redux-thunk";
 import { ActionCreator, Dispatch } from "redux";
-import { INotesState } from "../reducers/NotesReducer";
-import { NotesActions, NotesTypes } from "../types/NotesTypes";
+import { INotesState } from "./NotesReducer";
+import { NotesActions, NotesTypes } from "./NotesTypes";
 import { Note } from "../../domain/Note";
 
 export const addNewCardAction: ActionCreator<

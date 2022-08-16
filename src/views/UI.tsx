@@ -6,13 +6,13 @@ import { CardHeader } from "../components/CardHeader/CardHeader";
 import { Cards } from "../components/Cards/Cards";
 import { CardTitle } from "../components/CardTitle/CardTitle";
 import { NewCard } from "../components/NewCard/NewCard";
-import { INotesState } from "../redux/reducers/NotesReducer";
+import { INotesState } from "../redux/notes/NotesReducer";
 import { IApplicationState } from "../redux/store/Store";
 import {
   addNewCardAction,
   deleteCardAction,
   updateCardAction,
-} from "../redux/actions/NotesActions";
+} from "../redux/notes/NotesActions";
 import { Note } from "../domain/Note";
 
 export const UI: React.FC = () => {
