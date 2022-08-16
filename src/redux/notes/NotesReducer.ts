@@ -25,7 +25,7 @@ export const NotesReducer: Reducer<INotesState, NotesActions> = (
 ) => {
   switch (action.type) {
     case NotesTypes.LOADING: {
-      return { ...initialState };
+      return { ...initialState , loading : true};
     }
     case NotesTypes.SUCCESS: {
       return { loading: false, notes: action.payload };
