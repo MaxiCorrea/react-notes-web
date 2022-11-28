@@ -13,4 +13,15 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-serviceWorker.unregister(); 
+const configuration = {
+  onUpdate: (registration : ServiceWorkerRegistration) => {
+    if (registration && registration.waiting) {
+      if (window.confirm('New version available!  refresh to update your app?')) {
+        registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+        window.location.reload();
+      }
+    }
+  }
+ };
+  
+ serviceWorker.register(configuration);
