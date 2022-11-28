@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import configureStore from "./redux/store/Store";
 import { Provider } from "react-redux";
 import { UI } from "./views/UI";
-import * as serviceWorker from "../public/serviceWorker";
+import * as serviceWorker from "./serviceWorker";
 
 const store = configureStore();
 ReactDOM.render(
