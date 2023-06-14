@@ -1,7 +1,7 @@
 import { createUseStyles } from "react-jss";
 
 export const useCardStyles = createUseStyles({
-  root: {
+  root: { 
     backgroundColor: "#f0c806",
     borderRadius: "8px",
     width: "280px",
@@ -12,6 +12,6 @@ export const useCardStyles = createUseStyles({
     fontFamily: "Caveat, cursive",
     "&:hover": {
       boxShadow: "2px 4px 10px rgba(0, 0, 0, 0.3)",
-    },
+    }, 
   },
 });
