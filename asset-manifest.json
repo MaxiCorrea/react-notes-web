@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-notes/static/js/main.4558515b.js",
-    "index.html": "/react-notes/index.html",
-    "main.4558515b.js.map": "/react-notes/static/js/main.4558515b.js.map"
+    "main.js": "/react-notes-web/static/js/main.f0c65352.js",
+    "index.html": "/react-notes-web/index.html",
+    "main.f0c65352.js.map": "/react-notes-web/static/js/main.f0c65352.js.map"
   },
   "entrypoints": [
-    "static/js/main.4558515b.js"
+    "static/js/main.f0c65352.js"
   ]
 }
